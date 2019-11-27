@@ -1,0 +1,102 @@
+html,
+body,
+.cover {
+    height: 100%;
+}
+
+
+
+.cover {
+    background:url(images/milk.jpg) top left no-repeat;
+    background-size:cover;
+    display: table;
+    width: 100%;
+}
+
+.cover::after {
+    content:"Welcome to our site find out about our products";
+    color: whhte;
+    font-size: 36px;
+    text-align: center;
+    vertical-align: center;
+    background: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+
+.cover-text{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+.cover-text::after{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    
+}
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+
+
+.map-container iframe{
+left:0px;
+top:0px;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+footer {
+    
+    -webkit-box-shadow: 0px 0px 12px rgba(0,0,0,.8);
+              -moz-box-shadow: 0px 0px 12px rgba(0,0,0,.8);
+                         box-shadow: 0px 0px 12px rgba(0,0,0,.8);
+    overflow: auto;
+
+    margin-top: 25px;
+}
+
+.row{
+    padding-top: 20px;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 18px;
+    color: darkgray;
+
+}
+p {
+/*    margin-top: 25px;*/
+/*    text-align: left;*/
+}
+
+#copy {
+    color:darkgray;
+    text-align: center;
+}
+
+
+#logo {
+    
+    max-width: 100%;
+    height: auto;
+}
+
+.map{
+    padding-top: 20px;
+}

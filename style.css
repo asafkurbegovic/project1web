@@ -2,33 +2,23 @@ html,
 body,
 .cover {
     height: 100%;
+    font-weight: bold;
 }
 
 
 
 .cover {
-    background:url(images/milk.jpg) top left no-repeat;
+    background:url(images/milk.png) top left no-repeat;
     background-size:cover;
     display: table;
     width: 100%;
-}
-
-.cover::after {
-    content:"Welcome to our site find out about our products";
-    color: whhte;
+    content:"Dobro dosli na našu stranicu";
+    color: white;
     font-size: 36px;
     text-align: center;
     vertical-align: center;
-    background: black;
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-    
 }
+
 
 
 .cover-text{
@@ -99,4 +89,41 @@ p {
 
 .map{
     padding-top: 20px;
+}
+
+.putodfarme {
+    margin-top:0px;
+    text-align: center;
+    
+}
+.naslov{
+    margin-top:110px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#kontakt{
+    margin-top: 130px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+#proizvodi{
+    display: flex;
+    justify-content: center;
+}
+.pricaprica{
+    margin-top: 130px;
+}
+.josmalo{
+    margin-top: 50px;
+}
+.container{
+    font-family: 'Varela Round', sans-serif;
 }

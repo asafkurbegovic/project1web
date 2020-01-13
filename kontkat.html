@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
             <link rel = "shortcut icon" type = "image/x-icon" href = "favicon.ico"  > 
+            <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
  
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -76,8 +78,23 @@
           </div>
 </nav>
       
-      <div>KONTAKT</div>
-      
+      <div id="kontakt"><h2>Ostavite nam svoju poruku</h2></div>
+      <div class="container">
+          <form method="post" action="php.php">
+              <div class="form-group">
+                  <label for="exampleFormControlInput1" >Email </label>
+                  <input type="email" class="form-control" name="mail" placeholder="name@example.com">
+              </div>
+
+              <div class="form-group">
+                  <label for="exampleFormControlTextarea1" >Poruka</label>
+                  <textarea class="form-control" name="message" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                  <button type="submit" class="btn btn-primary mb-2" id="submit">Submit</button>
+              </div>
+          </form>
+      </div>
       
 <footer class="contact" style="background-color:#0C2344;">
           <section > 
